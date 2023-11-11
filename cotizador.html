@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css/stylescotizador.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <header>
+        <div class="back">
+            <div class="menu container">
+                
+                
+                <label for="Menu">
+                    <div style="text-align: right">
+                    <img src="img/logo excelite.png" class="menu-icono" alt="">
+                    </div>
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li> <a href="#" style="text-decoration:none; color: white; ">Cerrar sesion</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+ 
+    <br />
+    <div>
+    <label style="margin-right: 60px; margin-left: 30px;">Fecha:</label>
+    <input type="date" name="Fecha" id="Fecha">
+    </div>
+    <br />
+    <div>
+        <label style="margin-right: 75px; margin-left: 30px;">Nit:</label>
+        <input class="input-fomulario" type="search" name="Nit">
+        <button>Buscar</button>
+    </div>
+    <br />
+    <div>
+        <label style="margin-right: 10px; margin-left: 30px;">Razon Social:</label>
+        <input class="input-fomulario" type="search" name="Razon Social">
+        <button>Buscar</button>
+    </div>
+    <br />
+    <div>
+        <label style="margin-right: 30px; margin-left: 30px;">Direccion:</label>
+        <input style="border: none; background-color: transparent; border-bottom: 1px solid" class="input-fomulario" type="text" name="Direccion">
+    </div>
+    <br />
+    <div>
+        <label style="margin-right: 45px; margin-left: 30px;">Ciudad:</label>
+        <input style="border: none; background-color: transparent; border-bottom: 1px solid;" class="input-fomulario" type="text" name="Ciudad">
+    </div>
+    <br />
+    <div>
+        <label style="margin-right: 45px; margin-left: 30px;">Asesor:</label>
+        <input style="border: none; background-color: transparent; border-bottom: 1px solid" class="input-fomulario" type="text" name="Ciudad">
+    </div>
+    <br />
+    <div>
+        <label style="margin-right: 65px; margin-left: 30px;">Ref:</label>
+        <input class="input-fomulario" type="search" name="Ref">
+        <button>Buscar</button>
+    </div>
+    <br />
+    <div>
+        <label style="margin-right: 10px; margin-left: 30px;">Descripcion:</label>
+        <input class="input-fomulario" type="search" name="Descripcion">
+        <button>Buscar</button>
+    </div>
+    <br />
+    
+    <table class="styled-table"> 
+    <thead>
+    <tr>
+        <th>Ref.</th>
+        <th>Descripcion</th>
+        <th>Existencia</th>
+        <th>Cantidad</th>
+    </tr>
+    </thead>
+
+    <tbody >
+        <tr>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td> <input type="number" min="1"></td>
+        </tr>
+    </tbody>
+    </table>
+    <br />
+    
+    <div style="margin-left: 350px;"> <button>Adicionar</button>
+    </div>
+    <br />
+    <table class="styled-table"> 
+        <thead>
+        <tr>
+            <th>Ref.</th>
+            <th>Descripcion</th>
+            <th>Existencia</th>
+            <th>Cantidad</th>
+            <th>Precio</th>
+            <th>Valor</th>
+        </tr>
+        </thead>
+    
+        <tbody >
+            <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>$</td>
+            </tr>
+        </tbody>
+
+        <tbody >
+            <tr>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>$</td>
+            </tr>
+        </tbody>
+
+        <tbody >
+            <tr>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>$</td>
+            </tr>
+        </tbody>
+
+        <tbody >
+            <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="background-color: cornflowerblue; color:white">Valor Bruto</td>
+            <td>$-</td>
+            </tr>
+        </tbody>
+
+        <tbody >
+            <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="background-color: cornflowerblue; color:white">IVA</td>
+            <td>$-</td>
+            </tr>
+        </tbody>
+
+        <tbody >
+            <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="background-color: cornflowerblue; color:white">Valor Total</td>
+            <td>$-</td>
+            </tr>
+        </tbody>
+        </table>
+        <br />
+        <button style="margin-right: 15px; margin-left: 40px;">Eliminar</button>
+        <button style="margin-right: 15px;">Guardar Pedido</button>
+        <button style="margin-right: 15px;">Transmitir Pedido</button>
+        <button style="margin-right: 15px;">Limpiar</button>
+        <br />
+        <br />
+        <table class="styled-table"> 
+            <thead>
+            <tr>
+                <th>Num. Pedido</th>
+                <th>Razon Social</th>
+                <th>Num Pedido Cguno</th>
+                
+            </tr>
+            </thead>
+        
+            <tbody >
+                <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                </tr>
+
+            <tbody >
+                <tr>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+                </tr>
+            </tbody>
+            </table>
+            <br />
+</body>
+</html>

@@ -1,0 +1,32 @@
+.marco {
+    border: 1px solid;
+    height: 300px;
+    width: 300px; 
+    margin: auto; 
+    margin-top: 80px;
+    border-radius: 10px;
+    background-color: white;
+    }
+
+.cabeza {
+        height: 40px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+button {
+    background-color:cornflowerblue;
+    padding:  5px 62px;
+    color: white;
+    border-radius: 20px;
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    background-color: white;
+    text-align: center;
+}
